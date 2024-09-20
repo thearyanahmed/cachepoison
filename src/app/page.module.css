@@ -164,7 +164,7 @@ a.secondary {
   }
 }
 
-diff-rand {
+.diff-rand {
   font-size: 8px;
   font-weight:400;
   color: gray;
