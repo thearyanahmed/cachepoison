@@ -40,3 +40,10 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.diff-rand {
+  font-size: 8px;
+  font-weight:400;
+  color: gray;
+}
