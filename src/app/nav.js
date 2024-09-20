@@ -5,13 +5,13 @@ export default function Nav() {
       <nav>
         <ul>
           <li>
-            <Link href="/hello">Hello</Link>
+            <Link href="/hello">Hello <span className="diff-rand"> different random: {Math.random()}</span></Link>
           </li>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/">Home <span  className="diff-rand"> different random: {Math.random()}</span></Link>
           </li>
           <li>
-            <Link href="/world">World</Link>
+            <Link href="/world">World <span  className="diff-rand"> different random: {Math.random()}</span> </Link>
           </li>
         </ul>
       </nav>
